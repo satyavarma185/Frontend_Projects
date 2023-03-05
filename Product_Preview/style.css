@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+/* font-family: 'Fraunces',
+serif;
+font-family: 'Montserrat',
+sans-serif; */
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+    
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    
+        body {
+            background: hsl(30, 38%, 92%);
+        }
+    
+        .card-title {
+            letter-spacing: 4px;
+            color: hsl(228, 12%, 48%);
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+        .card-text{
+            font-family: 'Fraunces',  sans-serif;
+            margin-bottom: 20px;
+        }
+        .text-para{
+            font-family: 'Montserrat',sans-serif ;
+            color: hsl(228, 12%, 48%);
+            margin-bottom: 20px;
+        }
+        .text-price{
+            font-size: 27px;
+            margin: 0px 20px 10px 0;
+        }
+
+.product{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 480px) {
+    #image img {
+        content: url(/images/image-product-mobile.jpg);
+    }
+}
