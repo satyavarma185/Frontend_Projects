@@ -6,7 +6,11 @@
 }
 
 body{
-    background: #262a2f;
+    background: url(./background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
 }
 
 .container{
@@ -20,7 +24,7 @@ body{
     border-radius: 10px;
 }
 .container p{
-    font-weight: 600;
+    font-weight: 800;
     font-size: 15px;
     margin-bottom: 8px;
 }
@@ -44,7 +48,8 @@ body{
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     margin: 20px 0;
-    font-weight: 500;
+    font-size: 17px;
+    font-weight: 800;
 }
 
 #imgBox{
