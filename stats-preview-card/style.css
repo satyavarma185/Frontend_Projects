@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 15px;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.main{
+    width: 900px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.insights{
+    padding: 50px 40px;
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.insights .insight-heading{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin-bottom: -50px;
+}
+
+.insights .insight-para{
+    margin-top: 0;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin-bottom: -10px;
+}
+
+.insights .insight-stats{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.insight-stats .head{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+#insight-heading-part{
+    color: hsl(277, 64%, 61%);
+}
+
+.insight-stats .text{
+    display: block;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color:hsla(0, 0%, 100%, 0.75);
+}
+
+.insight-img{
+   position: relative;
+   background: url(./images/image-header-desktop.jpg);
+}
+
+.img-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(277, 64%, 61%);
+    opacity: .4;
+}
+
+
+
+
+
+
+
+
+
+
+
+.attribution{
+    width: 100%;
+    color: gray;
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+}
+
+.attribution a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 900;
+}
